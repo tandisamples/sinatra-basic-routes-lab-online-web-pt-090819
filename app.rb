@@ -10,12 +10,12 @@ class App < Sinatra::Base
     "My name is"
   end
   
-  get '/gender' do
-    "I identify as"
+  get '/hometown' do
+    "My hometown is"
   end
   
-  get '/hometown' do
-    "I am from"
+  get '/favorite-song' do
+    "My favorite song is"
   end
   
   
