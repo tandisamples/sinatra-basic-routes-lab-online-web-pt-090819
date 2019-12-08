@@ -14,6 +14,9 @@ class App < Sinatra::Base
     "I identify as"
   end
   
-  get '/'
+  get '/hometown' do
+    "I am from"
+  end
+  
   
 end
