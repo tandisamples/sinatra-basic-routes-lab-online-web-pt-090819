@@ -10,8 +10,10 @@ class App < Sinatra::Base
     "My name is"
   end
   
-  get '/age' do
-    ""
+  get '/gender' do
+    "I identify as"
   end
+  
+  get '/'
   
 end
