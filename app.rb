@@ -11,6 +11,7 @@ class App < Sinatra::Base
   end
   
   get '/age' do
-end
+    ""
+  end
   
 end
